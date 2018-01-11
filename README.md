@@ -14,6 +14,17 @@ a simple `jason to model code` MacOS tool
 "isMale":1
 }
 ```
+## converted to
+```
+var status:Bool?
+var UserId:Int?
+var UnitName:String?
+var isMale:Bool?
+var IsSelect:Bool?
+var Price:Double?
+var FixedTelephone:AnyObject?
+
+```
 ## notice
 <ul>
 	<li>if value is <code>null</code>,it will be converted to AnyObject type</li>
